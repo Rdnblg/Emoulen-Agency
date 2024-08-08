@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Онлайн тестийн төв | ОТТ</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="assets/logo.png" alt="logo" />
+              <!-- <span>Oнлайн<br> тестийн<br> төв</span> -->
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Эхлэл</a></li>
+          <li><a href="#service">Онцлог</a></li>
+          <li><a href="#test">Тестийн сан</a></li>
+          <li><a href="#contact">Холбоо барих</a></li>
+          <li>
+            <button class="btn">
+              <span><i class="ri-login-box-line"></i></span>
+              Нэвтрэх
+            </button>
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">
+            <span><i class="ri-login-box-line"></i></span>
+            Нэвтрэх
+          </button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <div class="header__tag">
+            <h4>
+              Амжилтад хүрэх түлхүүр
+            </h4>
+            <img src="assets/hand finger.png" alt="header tag" />
+          </div>
+          <h1>Цахим тест, даалгаврын <span>платформ</span></h1>
+          <p class="section__description">
+            Хувь хүн бэлэн тест бөглөхөөс гадна, албан байгууллагууд өөрсдийн тестийн санг үүсгэн ашиглах боломжтой.
+          </p>
+          <div class="header__btns">
+            <button class="btn">Туршиж үзэх</button>
+            <a href="#">
+              <span><i class="ri-play-fill"></i></span>
+              Танилцуулга үзэх
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">ОНЦЛОГ, ДАВУУ ТАЛ</p>
+      <h2 class="section__header">Өөрийн мэдлэгээ сорь, тест үүсгэж бусдын мэдлэгийг дүгнэ</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="assets/service-1.jpg" alt="service" />
+          <h4>Олон төрлийн тест</h4>
+          <p>Нөхөх, бөглөх, сонгох, тохируулах гэх мэт тест үүсгэх боломжтой</p>
+        </div>
+        <div class="service__card">
+          <img src="assets/service-2.jpg" alt="service" />
+          <h4>Мультимедиа контент</h4>
+          <p>Дуу, дүрс, текст хосолсон тест даалгавар бэлтгэх боломжтой</p>
+        </div>
+        <div class="service__card">
+          <img src="assets/service-3.jpg" alt="service" />
+          <h4>Үр дүн, тайлан</h4>
+          <p>Үр дүнг олон төрлийн тайлан болгож авах боломжтой</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container test__container" id="test">
+      <p class="section__subheader">ТЕСТИЙН САН</p>
+      <h2 class="section__header">Үнэ төлбөргүйгээр мэдлэгээ сорьж, тест бөглөөрэй</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="test__card">
+              <img src="assets/subject-4.jpg" alt="test" />
+              <div class="test__card__details">
+                <h5>Монголын түүхийн хичээл<span>Үнэгүй</span></h5>
+                <a href="#">
+                  Дэлгэрэнгүй
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="test__card">
+              <img src="assets/subject-1.jpg" alt="test" />
+              <div class="test__card__details">
+                <h5>Төрийн албаны ерөнхий шалгалт</h5>
+                  <a href="#">
+                  Дэлгэрэнгүй
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="test__card">
+              <img src="assets/subject-5.jpg" alt="test" />
+              <div class="test__card__details">
+                <h5>Үндэсний бичгийн хичээл<span>Үнэгүй</span></h5>
+                <a href="#">
+                  Дэлгэрэнгүй
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="test__card">
+              <img src="assets/subject-2.jpg" alt="test" />
+              <div class="test__card__details">
+                <h5>Хуульчийн мэргэжлийн шалгалт</h5>
+                  <a href="#">
+                  Дэлгэрэнгүй
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="test__card">
+              <img src="assets/subject-3.jpg" alt="test" />
+              <div class="test__card__details">
+                <h5>Уламжлалт анагаах ухааны эмчийн лицензийн шалгалт</h5>
+                <a href="#">
+                  Дэлгэрэнгүй
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="test__card">
+              <img src="assets/subject-6.jpg" alt="test" />
+              <div class="test__card__details">
+                <h5>Эмчийн ёс зүй, эрүүл мэндийн хуулийн жишиг сорил</h5>
+                <a href="#">
+                  Дэлгэрэнгүй
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="client__image">
+        <img src="assets/client.png" alt="client" />
+      </div>
+      <div class="client__content">
+        <p class="section__subheader">СЭТГЭГДЭЛ</p>
+        <h2 class="section__header">Хэрэглэгч, суралцагчид бидний тухай юу хэлэв?</h2>
+        <p class="section__description">
+          "Миний хувьд Үндэсний бичгийн сургалтыг үзэж дуусгасан. Хичээл маш ойлгомжтой байсан ба систем хэрэглэхэд элдэв асуудалгүй, ажиллагаа сайтай байлаа. Хамгийн гоё нь үнэгүй тест, сургалтууд нэлээдгүй олон байсан шүү."
+        </p>
+        <div class="client__details">
+          <img src="assets/user.jpg" alt="client" />
+          <div>
+            <h4>Э. Эрдэнэбилэг</h4>
+            <h5>Үндэсний бичгийн суралцагч</h5>
+          </div>
+        </div>
+        <div class="client__rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-line"></i></span>
+          <span>4.8</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download__container" id="contact">
+      <div class="section__container">
+        <div class="download__image">
+          <img src="assets/download.png" alt="download" />
+        </div>
+        <div class="download__content">
+          <p class="section__subheader">ГАР УТАСНЫ АПП</p>
+          <h2 class="section__header">Амжилтын түлхүүрийг гар утаснаасаа</h2>
+          <p class="section__description">
+            Хүссэн үедээ гар утаснаасаа OTT аппликейшин ашиглан тест, даалгавраа ажиллах боломжтой.
+          </p>
+          <div class="download__btn">
+            <button class="btn">Аппликейшн татах</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="assets/logo.png" alt="logo" />
+              <!-- <span>Онлайн тестийн төв</span> -->
+            </a>
+          </div>
+          <p class="section__description">
+            Бүх төрлийн сургалтын үйл ажиллагаа эрхэлдэг байгууллагууд, компани аж ахуйн нэгжүүд, цахимаар мэдлэг, сорил, шалгалт авах шаардлагатай хүний нөөцийн болон бусад үйл ажиллагаанд тохируулан ашиглах бүрэн боломжтой.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+ 
+        <!-- <div class="footer__col">
+          <h4>Тухай</h4>
+          <ul class="footer__links">
+            <li><a href="#">Бидний тухай</a></li>
+            <li><a href="#">Функц, модуль</a></li>
+            <li><a href="#">Мэдээлэл</a></li>
+            <li><a href="#">Үйлчилгээ</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Комапни</h4>
+          <ul class="footer__links">
+            <li><a href="#">Яагаад OTT.mn гэж?</a></li>
+            <li><a href="#">Хамтран ажиллах</a></li>
+            <li><a href="#">Түгээмэл асуулт</a></li>
+            <li><a href="#">Блог</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Бусад мэдээлэл</h4>
+          <ul class="footer__links">
+            <li><a href="#">Хэрэглэгчид</a></li>
+            <li><a href="#">Харилцагчийн төв</a></li>
+            <li><a href="#">Санал хүсэлт</a></li>
+            <li><a href="#">Холбоо барих</a></li>
+            <li><a href="#">Бусад боломжууд</a></li>
+          </ul>
+        </div> -->
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 ECM LLC. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
